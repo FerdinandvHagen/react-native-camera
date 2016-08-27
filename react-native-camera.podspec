@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.source         = { :git => 'https://github.com/lwansbrough/react-native-camera', :tag => s.version }
+  s.source         = { :git => 'https://github.com/ferdinandvhagen/react-native-camera', :tag => s.version }
 
   s.requires_arc   = true
-  s.platform       = :ios, '8.0'
+  s.platform       = :ios, '7.0'
 
   s.preserve_paths = 'LICENSE', 'README.md', 'package.json', 'index.js'
   s.source_files   = 'ios/*.{h,m}'
